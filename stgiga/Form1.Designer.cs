@@ -108,7 +108,6 @@ namespace stmegatest
             // 
             this.Units.FormattingEnabled = true;
             this.Units.Items.AddRange(new object[] {
-            "english",
             "metric"});
             this.Units.Location = new System.Drawing.Point(224, 27);
             this.Units.Name = "Units";

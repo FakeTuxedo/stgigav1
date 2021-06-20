@@ -25,6 +25,8 @@ namespace stmegatest
         public Form1()
         {
             InitializeComponent();
+            Units.Items.Insert(0, "english");
+            Units.SelectedIndex = 0;
         }
 
         // Gets the default device for the system
@@ -43,14 +45,7 @@ namespace stmegatest
             {
                 return meter.PeakValue > 0;
             }
-        }
-        private void OnPlaybackStopped(object sender, StoppedEventArgs args)
-        {
-            outputDevice.Dispose();
-            outputDevice = null;
-            audioFile.Dispose();
-            audioFile = null;
-        }
+        }       
         private decimal GetLevel()
         {   //sends json request with variables from gui                        
             JSONOutput = new WebClient().DownloadString("https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?date=latest&station=" + StationID.Text +
@@ -291,6 +286,6 @@ namespace stmegatest
                 goto Start;
             }         
             }
-        }
+    }
     }  
     
