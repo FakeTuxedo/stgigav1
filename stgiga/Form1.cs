@@ -23,12 +23,10 @@ namespace stmegatest
         bool iferror;
 
         public Form1()
-        {           
+        {
             InitializeComponent();
         }
-        private void Form1_Load(object sender, EventArgs e)
-        {                
-        }
+
         // Gets the default device for the system
         public static MMDevice GetDefaultRenderDevice()
         {
@@ -53,8 +51,6 @@ namespace stmegatest
             audioFile.Dispose();
             audioFile = null;
         }
-
-
         private decimal GetLevel()
         {   //sends json request with variables from gui                        
             JSONOutput = new WebClient().DownloadString("https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?date=latest&station=" + StationID.Text +
