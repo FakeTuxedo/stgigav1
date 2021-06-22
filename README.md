@@ -12,10 +12,9 @@ In this scenario, when water height is between 574.69 and 575.74 in the river, i
 
 The textboxes below the “choose directory” buttons are all meant to be inputs for links, which will open in your default browser. It will simulate pressing the spacebar to play on whatever website you link. Once it is opened, the program will not play anything again until it detects that there is no music being played, so be sure you don’t have anything set on a loop or have any extended periods of silence.
 
-The choose directory buttons all bring up a prompt for you to choose the corresponding folder to use in each category. 
+The choose directory buttons all bring up a prompt for you to choose the corresponding folder to use in each category. I have ~24 hours of royalty free (sort of, because some of the artists are uncredited which is not allowed under my license, and some of the St.GIGA archives contain copyrighted music - use with caution) ambient music, house music, and field recordings, all sorted by intensity to use with the program, here: https://drive.google.com/file/d/1DYi95W0v2NPMbPZj9PFKKXMJXWPGYsWQ/view?usp=sharing
 
 Please keep in mind I am quite terrible at coding, so expect a bit of a learning curve, and plenty of bugs.
 
-Additionally, I will be posting 24 hours of royalty free (ish) music for you to use, including original St.GIGA archives in the future, however this is all I have for now.
 
 Thanks for reading, and good luck!
